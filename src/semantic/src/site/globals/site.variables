@@ -1,0 +1,34 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+// Base font sizes
+@emSize   : 16px;
+@fontSize : 16px;
+
+// Disable Google Fonts
+@importGoogleFonts : false;
+
+// Use Cambria for the default font
+@fontName: 'Cambria';
+
+// Use DIN for header font
+@headerFont: 'DINWeb', sans-serif;
+@headerFontMedium: 'DINWeb', sans-serif;
+@headerFontNormal: 'DINWeb', sans-serif;
+@headerFontWeight: @bold;
+@headerLineHeight: 1.1em;
+
+// Colours
+
+@primaryColor: @red;
+
+// Official colours from CLF
+@red : #A6192E;
+@yellow : #C1A01E;
+@blue : #007096;
+@grey : #54585A;
+
+// Additional colours from ITS site
+@purple: #5E457A;
+@orange: #CA7429;
