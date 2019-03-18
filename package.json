@@ -13,9 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "watch": "cd src/semantic && gulp watch",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "cd src/semantic && gulp build"
   },
   "eslintConfig": {
     "extends": "react-app"
