@@ -9,7 +9,7 @@ import {
   Menu,
   Segment
 } from "semantic-ui-react";
-
+import "sfu-fonts";
 import "./semantic/dist/semantic.css";
 
 const App = () => (
