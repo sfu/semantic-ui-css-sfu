@@ -39,8 +39,9 @@ const App = () => (
         <Header as="h2">Example body text</Header>
 
         <p>
-          Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo.
-          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+          Nullam quis risus eget{" "}
+          <a href="https://www.sfu.ca">urna mollis ornare</a> vel eu leo. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
           ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
         </p>
         <p>
