@@ -1,7 +1,17 @@
 {
-  "name": "semantic-ui-sfu",
+  "name": "@sfu/semantic-ui-css-sfu",
   "version": "0.1.0",
-  "private": true,
+  "description": "Semantic UI CSS-only theme for SFU CLF",
+  "author": "Graham Ballantyne <grahamb@sfu.ca>",
+  "main": "semantic.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sfu/semantic-ui-css-sfu"
+  },
+  "files": [
+    "src/semantic/dist"
+  ],
   "dependencies": {},
   "devDependencies": {
     "react": "^16.8.4",
@@ -14,7 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "watch": "cd src/semantic && gulp watch",
-    "build": "cd src/semantic && gulp build"
+    "build": "cd src/semantic && gulp build",
+    "dist": "cd src/semantic && gulp clean && gulp build && node publish.js && cd dist && npm publish"
   },
   "eslintConfig": {
     "extends": "react-app"
