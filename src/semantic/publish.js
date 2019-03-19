@@ -23,3 +23,9 @@ const packageJson = JSON.stringify(
 
 console.log("Creating dist/package.json");
 fs.writeFileSync(path.resolve(__dirname, "dist/package.json"), packageJson);
+
+console.log("Copying readme");
+fs.copyFileSync(
+  path.resolve(__dirname, "../../README.md"),
+  path.resolve(__dirname, "dist/README.md")
+);

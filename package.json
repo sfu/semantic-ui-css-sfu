@@ -9,6 +9,9 @@
     "type": "git",
     "url": "git://github.com/sfu/semantic-ui-css-sfu"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "src/semantic/dist"
   ],
@@ -25,7 +28,7 @@
     "start": "react-scripts start",
     "watch": "cd src/semantic && gulp watch",
     "build": "cd src/semantic && gulp build",
-    "dist": "cd src/semantic && gulp clean && gulp build && node publish.js && cd dist && npm publish"
+    "dist": "cd src/semantic && gulp clean && gulp build && node publish.js"
   },
   "eslintConfig": {
     "extends": "react-app"
