@@ -1,3 +1,69 @@
 /*******************************
         Site Overrides
 *******************************/
+
+// https://github.com/Semantic-Org/Semantic-UI/pull/6304
+
+.ui.positive.message.floating {
+  box-shadow: @positiveBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.negative.message.floating {
+  box-shadow: @negativeBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.info.message.floating {
+  box-shadow: @infoBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.warning.message.floating {
+  box-shadow: @warningBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.error.message.floating {
+  box-shadow: @errorBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.success.message.floating {
+  box-shadow: @successBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.red.message.floating {
+  box-shadow: @redBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.yellow.message.floating {
+  box-shadow: @yellowBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.olive.message.floating {
+  box-shadow: @oliveBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.green.message.floating {
+  box-shadow: @greenBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.teal.message.floating {
+  box-shadow: @tealBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.blue.message.floating {
+  box-shadow: @blueBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.violet.message.floating {
+  box-shadow: @violetBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.purple.message.floating {
+  box-shadow: @purpleBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.pink.message.floating {
+  box-shadow: @pinkBoxShadow, @floatingBoxShadow !important;
+}
+
+.ui.brown.message.floating {
+  box-shadow: @brownBoxShadow, @floatingBoxShadow !important;
+}

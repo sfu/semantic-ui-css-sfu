@@ -6,6 +6,7 @@ import {
   Grid,
   Header,
   Image,
+  Message,
   Menu,
   Segment
 } from "semantic-ui-react";
@@ -15,6 +16,8 @@ import "./semantic/dist/semantic.css";
 const App = () => (
   <Container style={{ marginTop: "3em" }}>
     <Header as="h1">Theming Examples</Header>
+
+    <Message floating success content="This is a success message" />
 
     <Header as="h2" dividing>
       Site
